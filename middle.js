@@ -1,5 +1,3 @@
-const log = console.log
-
 const middle = function (array){
   let resuts = []
   let index = Math.floor(array.length/2)
@@ -15,14 +13,6 @@ const middle = function (array){
   }
   return resuts
 };
-
-
-log('array 1 items:',middle([1]));
-log('array 2 items:',middle([1,2]));
-log('array 3 items:',middle([1,2,3]));
-log('array 4 items:',middle([1,2,3,4,]));
-log('array 5 items:',middle([1,2,3,4,5]));
-log('array 6 items:',middle([1,2,3,4,5,6]));
 
 
 module.exports = middle;
