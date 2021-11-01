@@ -22,13 +22,6 @@ const countOnly = function(allItems, itemsToCount) {
       results[item] = 1;
       }
     }
-  //   console.log(item);
-  //   count++;
-  //   console.log(count)
-  // }
-  // results.count = count
-  // console.log(`Total ${results.count}`)
-  // return results.count;
   }
   return results;
 }
@@ -53,3 +46,13 @@ assertEqual(result1["Jason"], 1);
 assertEqual(result1["Karima"], undefined);
 assertEqual(result1["Fang"], 2);
 assertEqual(result1["Agouhanna"], undefined);
+
+
+//ABORTED ATTEMPT
+  //   console.log(item);
+  //   count++;
+  //   console.log(count)
+  // }
+  // results.count = count
+  // console.log(`Total ${results.count}`)
+  // return results.count;

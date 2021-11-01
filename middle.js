@@ -19,5 +19,4 @@ const assertArraysEqual = function(array1, array2) {
   }
 };
 
-assertArraysEqual([2,3],[2,3])
-assertArraysEqual([2,3],[2,4])
+
