@@ -56,3 +56,5 @@ assertEqual(result1["Agouhanna"], undefined);
   // results.count = count
   // console.log(`Total ${results.count}`)
   // return results.count;
+
+  module.exports = countOnly;

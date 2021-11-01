@@ -28,3 +28,5 @@ const countLetters = function(sentence) {
 
 console.log(countLetters("lets go raptors"));
 console.log(countLetters("raptors"));
+
+module.exports = countLetters;
